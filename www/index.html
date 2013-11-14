@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" charset="utf-8" src="tcPlugin.js"></script>
+        <!-- include jQuery to make DOM manipulation and event handling nicer -->
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <title>Hello World - Twilio App</title>
+    </head>
+    <body>
+        <h1>Twilio POC</h1>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // Handler for .ready() called.
+                alert("document ready, jquery loaded");
+                app.initialize();
+            });
+        </script>
+    </body>
+</html>
